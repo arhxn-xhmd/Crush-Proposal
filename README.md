@@ -44,13 +44,9 @@ A fun, interactive and adorable crush proposal website that playfully encourages
 2. Open `index.html` in your browser.
 3. Make sure all the videos are placed inside the `assets/` folder.
 
-## 📸 Preview
-
-![Preview](https://your-image-link-if-you-have-preview.gif)
-
 ## ❤️ Credits
 
-Created with lots of love and drama 😅 by \[Your Name].
+Created with lots of love and drama 😅 by Arhaan (arhxn-xhmd).
 
 ---
 
@@ -59,6 +55,5 @@ Created with lots of love and drama 😅 by \[Your Name].
 Purely for fun and sweet surprises. Use responsibly 😄
 
 ```
-
 Let me know if you want to add a **live GitHub Pages link**, change the theme (e.g. "BFF proposal" instead of "crush"), or include custom video thumbnails.
 ```
