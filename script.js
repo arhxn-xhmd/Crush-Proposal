@@ -53,7 +53,7 @@ function acceptProposal() {
         body.append(cont);  
 
         let video = document.createElement("video");  
-        video.setAttribute("src" , "/Crush-Proposal/assets/video5.mp4");  
+        video.setAttribute("src" , "/Crush-Proposal/assets/Video 5.mp4");  
         video.setAttribute("width" , "400");  
         video.setAttribute("autoplay" , "");  
         video.setAttribute("muted" , "");  
@@ -67,7 +67,7 @@ function acceptProposal() {
     });
 }
 
-objectCreator("/Crush-Proposal/assets/video1.mp4" , "Do you love me? 🫠" , "Chiku is all yours" , "accept-btn" , "reject-btn1");
+objectCreator("/Crush-Proposal/assets/Video 1.mp4" , "Do you love me? 🫠" , "Chiku is all yours" , "accept-btn" , "reject-btn1");
 acceptProposal();
 
 let rejectBtn1 = document.querySelector(".reject-btn1");
@@ -75,7 +75,7 @@ let rejectBtn1 = document.querySelector(".reject-btn1");
 rejectBtn1.addEventListener("click" , () => {
     let container = document.querySelector(".container");
     container.remove();
-    objectCreator("/Crush-Proposal/assets/video2.mp4" , "Please think again! 🙄" , "Itni jaldi na matt bolo😢" , "accept-btn" , "reject-btn2");
+    objectCreator("/Crush-Proposal/assets/Video 2.mp4" , "Please think again! 🙄" , "Itni jaldi na matt bolo😢" , "accept-btn" , "reject-btn2");
     acceptProposal();
 
     let rejectBtn2 = document.querySelector(".reject-btn2");
@@ -83,7 +83,7 @@ rejectBtn1.addEventListener("click" , () => {
     rejectBtn2.addEventListener("click" , () => {
         let container = document.querySelector(".container");
         container.remove();
-        objectCreator("/Crush-Proposal/assets/video3.mp4" , "Ek aur baar soch lo! 😣" , "Kyu aisa kar rhi ho Plzz maan jao 😣" , "accept-btn" , "reject-btn3");
+        objectCreator("/Crush-Proposal/assets/Video 3.mp4" , "Ek aur baar soch lo! 😣" , "Kyu aisa kar rhi ho Plzz maan jao 😣" , "accept-btn" , "reject-btn3");
         acceptProposal();
 
         let rejectBtn3 = document.querySelector(".reject-btn3");
@@ -91,7 +91,7 @@ rejectBtn1.addEventListener("click" , () => {
         rejectBtn3.addEventListener("click" , () => {
             let container = document.querySelector(".container");
             container.remove();
-            objectCreator("/Crush-Proposal/assets/video4.mp4" , "Baby maan jao na! Kitne bhaav khaogi! 😭" , "Bohot galat baat hai yrr! 😭" , "accept-btn" , "reject-btn4");
+            objectCreator("/Crush-Proposal/assets/Video 4.mp4" , "Baby maan jao na! Kitne bhaav khaogi! 😭" , "Bohot galat baat hai yrr! 😭" , "accept-btn" , "reject-btn4");
             acceptProposal();
 
             let rejectBtn4 = document.querySelector(".reject-btn4");
