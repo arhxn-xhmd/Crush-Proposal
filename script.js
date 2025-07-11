@@ -58,8 +58,7 @@ let floatingRejectBtn = document.querySelector(".reject-btn");
     video.setAttribute("width" , "400")  
     video.setAttribute("autoplay" , "");  
     video.setAttribute("muted" , "");  
-    video.setAttribute("loop" , "");  
-    video.setAttribute("controls", "");
+    video.setAttribute("loop" , "");
     cont.append(video);  
 
     let statement = document.createElement("h2");  
