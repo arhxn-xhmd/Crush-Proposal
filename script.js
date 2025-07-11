@@ -59,6 +59,7 @@ let floatingRejectBtn = document.querySelector(".reject-btn");
     video.setAttribute("autoplay" , "");  
     video.setAttribute("muted" , "");  
     video.setAttribute("loop" , "");  
+    video.setAttribute(" controls", "");
     cont.append(video);  
 
     let statement = document.createElement("h2");  
