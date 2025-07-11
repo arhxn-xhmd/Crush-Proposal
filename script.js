@@ -1,7 +1,6 @@
 let body = document.querySelector("body");
 
 function objectCreator(src , msg1 , msg2 , class1 , class2) {
-
     let cont = document.createElement("div");  
     cont.setAttribute("class" , "container");  
     body.append(cont);  
@@ -12,6 +11,7 @@ function objectCreator(src , msg1 , msg2 , class1 , class2) {
     video.setAttribute("autoplay" , "");  
     video.setAttribute("muted" , "");  
     video.setAttribute("loop" , "");  
+    video.setAttribute("playsinline", "");  
     cont.append(video);  
 
     let statement1 = document.createElement("h2");  
@@ -39,7 +39,7 @@ function objectCreator(src , msg1 , msg2 , class1 , class2) {
 
 function acceptProposal() {
     let acceptBtn = document.querySelector(".accept-btn:last-of-type");
-    acceptBtn.addEventListener("click", () => {
+    acceptBtn.addEventListener("click" , () => {
         let container = document.querySelector(".container");
         container.remove();
 
@@ -49,17 +49,16 @@ function acceptProposal() {
         }  
 
         let cont = document.createElement("div");  
-        cont.setAttribute("class", "container");  
+        cont.setAttribute("class" , "container");  
         body.append(cont);  
 
         let video = document.createElement("video");  
-        video.setAttribute("src", "assets/Video 5.mp4");
-        video.setAttribute("width", "400");  
-        video.setAttribute("autoplay", "");  
-        video.setAttribute("muted", "");  
-        video.setAttribute("loop", "");  
-        video.setAttribute("playsinline", "");
-        video.setAttribute("controls", "");
+        video.setAttribute("src" , "/Crush-Proposal/assets/video5.mp4");  
+        video.setAttribute("width" , "400");  
+        video.setAttribute("autoplay" , "");  
+        video.setAttribute("muted" , "");  
+        video.setAttribute("loop" , "");  
+        video.setAttribute("playsinline", "");  
         cont.append(video);  
 
         let statement = document.createElement("h2");  
@@ -68,44 +67,44 @@ function acceptProposal() {
     });
 }
 
-objectCreator("assets/video1.mp4" , "Do you love me? 🫠" , "Chiku is all yours" , "accept-btn" , "reject-btn1");
+objectCreator("/Crush-Proposal/assets/video1.mp4" , "Do you love me? 🫠" , "Chiku is all yours" , "accept-btn" , "reject-btn1");
 acceptProposal();
 
 let rejectBtn1 = document.querySelector(".reject-btn1");
 
-rejectBtn1.addEventListener("click", () => {
+rejectBtn1.addEventListener("click" , () => {
     let container = document.querySelector(".container");
     container.remove();
-    objectCreator("assets/video2.mp4" , "Please think again! 🙄" , "Itni jaldi na matt bolo😢" , "accept-btn" , "reject-btn2");
+    objectCreator("/Crush-Proposal/assets/video2.mp4" , "Please think again! 🙄" , "Itni jaldi na matt bolo😢" , "accept-btn" , "reject-btn2");
     acceptProposal();
 
     let rejectBtn2 = document.querySelector(".reject-btn2");
 
-    rejectBtn2.addEventListener("click", () => {
+    rejectBtn2.addEventListener("click" , () => {
         let container = document.querySelector(".container");
         container.remove();
-        objectCreator("assets/video3.mp4" , "Ek aur baar soch lo! 😣" , "Kyu aisa kar rhi ho Plzz maan jao 😣" , "accept-btn" , "reject-btn3");
+        objectCreator("/Crush-Proposal/assets/video3.mp4" , "Ek aur baar soch lo! 😣" , "Kyu aisa kar rhi ho Plzz maan jao 😣" , "accept-btn" , "reject-btn3");
         acceptProposal();
 
         let rejectBtn3 = document.querySelector(".reject-btn3");
 
-        rejectBtn3.addEventListener("click", () => {
+        rejectBtn3.addEventListener("click" , () => {
             let container = document.querySelector(".container");
             container.remove();
-            objectCreator("assets/video4.mp4" , "Baby maan jao na! Kitne bhaav khaogi! 😭" , "Bohot galat baat hai yrr! 😭 " , "accept-btn" , "reject-btn4");
+            objectCreator("/Crush-Proposal/assets/video4.mp4" , "Baby maan jao na! Kitne bhaav khaogi! 😭" , "Bohot galat baat hai yrr! 😭" , "accept-btn" , "reject-btn4");
             acceptProposal();
 
             let rejectBtn4 = document.querySelector(".reject-btn4");
 
-            rejectBtn4.addEventListener("click", () => {
+            rejectBtn4.addEventListener("click" , () => {
                 rejectBtn4.remove();
                 let rejectBtn = document.createElement("button");
-                rejectBtn.setAttribute("class", "reject-btn");
+                rejectBtn.setAttribute("class" , "reject-btn");
                 rejectBtn.style.position = "absolute";
                 rejectBtn.innerText = "No";
                 document.querySelector("body").append(rejectBtn);
 
-                rejectBtn.addEventListener("click", () => {
+                rejectBtn.addEventListener("click" , () => {
                     rejectBtn.style.top = `${Math.floor(Math.random() * 100)}vh`;
                     rejectBtn.style.left = `${Math.floor(Math.random() * 100)}vw`;
                 });
