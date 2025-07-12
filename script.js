@@ -54,7 +54,7 @@ let floatingRejectBtn = document.querySelector(".reject-btn");
     body.append(cont);  
 
     let video = document.createElement("video");  
-    video.setAttribute("src" , "assets/video 5.mp4");  
+    video.setAttribute("src" , "assets/Video 5.mp4");  
     video.setAttribute("width" , "400")  
     video.setAttribute("autoplay" , "");  
     video.setAttribute("muted" , "");  
