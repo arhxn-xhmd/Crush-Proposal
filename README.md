@@ -40,7 +40,6 @@ A fun, interactive and adorable crush proposal website that playfully encourages
    ```bash
    git clone https://github.com/your-username/crush-proposal.git
 
-
 2. Open `index.html` in your browser.
 3. Make sure all the videos are placed inside the `assets/` folder.
 
