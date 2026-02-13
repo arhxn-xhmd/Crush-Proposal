@@ -44,6 +44,11 @@ A fun, interactive and adorable crush proposal website that playfully encourages
 2. Open `index.html` in your browser.
 3. Make sure all the videos are placed inside the `assets/` folder.
 
+## 🌐 Live Demo
+
+💘 View the live website here:  
+👉 https://arhxn-xhmd.github.io/Crush-Proposal/
+
 ## ❤️ Credits
 
 Created with lots of love and drama 😅 by Arhaan (arhxn-xhmd).
